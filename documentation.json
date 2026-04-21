@@ -40,6 +40,10 @@
             "icon": "layers",
             "pages": [
               {
+                "group": "Modules",
+                "pages": []
+              },
+              {
                 "title": "Images",
                 "path": "components/images",
                 "icon": "image"
