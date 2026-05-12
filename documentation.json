@@ -99,8 +99,25 @@
                         "path": "logo-white-labeling"
                       },
                       {
-                        "title": "Legal Addresses",
-                        "path": "legal-addresses"
+                        "group": "Legal Addresses",
+                        "pages": [
+                          {
+                            "title": "Legal Addresses",
+                            "path": "legal-addresses"
+                          },
+                          {
+                            "title": "Add New Legal Address",
+                            "path": "add-new-legal-address"
+                          },
+                          {
+                            "title": "Edit Legal Address",
+                            "path": "edit-legal-address"
+                          },
+                          {
+                            "title": "Delete Legal Address",
+                            "path": "delete-legal-address"
+                          }
+                        ]
                       },
                       {
                         "title": "Company Notes",
