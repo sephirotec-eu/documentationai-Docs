@@ -19,6 +19,546 @@
             "icon": "rocket",
             "pages": [
               {
+                "group": "Getting Started",
+                "pages": [
+                  {
+                    "title": "Welcome",
+                    "path": "welcome"
+                  },
+                  {
+                    "title": "Quick Start",
+                    "path": "quick-start"
+                  },
+                  {
+                    "title": "Concept",
+                    "path": "concept"
+                  },
+                  {
+                    "title": "Glossary",
+                    "path": "glossary"
+                  },
+                  {
+                    "title": "Demo Walkthrough",
+                    "path": "demo-walkthrough"
+                  }
+                ]
+              },
+              {
+                "group": "Account",
+                "pages": [
+                  {
+                    "title": "My Profile",
+                    "path": "my-profile"
+                  },
+                  {
+                    "title": "Password & Security",
+                    "path": "password-security"
+                  },
+                  {
+                    "title": "Email & Verification",
+                    "path": "email-verification"
+                  },
+                  {
+                    "title": "Two-Factor Authentication",
+                    "path": "two-factor-authentication"
+                  },
+                  {
+                    "title": "Linked Accounts",
+                    "path": "linked-accounts"
+                  },
+                  {
+                    "title": "Active Company",
+                    "path": "active-company"
+                  },
+                  {
+                    "title": "Available Companies & Law Firms",
+                    "path": "available-companies-law-firms"
+                  },
+                  {
+                    "title": "Leaving a Company",
+                    "path": "leaving-a-company"
+                  },
+                  {
+                    "title": "Deleting Your Account",
+                    "path": "deleting-your-account"
+                  }
+                ]
+              },
+              {
+                "group": "Core",
+                "pages": [
+                  {
+                    "group": "Company",
+                    "pages": [
+                      {
+                        "title": "Overview",
+                        "path": "overview"
+                      },
+                      {
+                        "title": "Logo & White-Labeling",
+                        "path": "logo-white-labeling"
+                      },
+                      {
+                        "title": "Legal Addresses",
+                        "path": "legal-addresses"
+                      },
+                      {
+                        "title": "Company Notes",
+                        "path": "company-notes"
+                      },
+                      {
+                        "title": "Transferring Ownership",
+                        "path": "transferring-ownership"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Members",
+                    "pages": [
+                      {
+                        "title": "Company Overview",
+                        "path": "company-overview"
+                      },
+                      {
+                        "title": "Inviting Members",
+                        "path": "inviting-members"
+                      },
+                      {
+                        "title": "Managing Invitations",
+                        "path": "managing-invitations"
+                      },
+                      {
+                        "title": "Join Requests",
+                        "path": "join-requests"
+                      },
+                      {
+                        "title": "Member Profile",
+                        "path": "member-profile"
+                      },
+                      {
+                        "title": "Removing a Member",
+                        "path": "removing-a-member"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Roles & Permissions",
+                    "pages": [
+                      {
+                        "title": "Role Concept",
+                        "path": "role-concept"
+                      },
+                      {
+                        "title": "Default Roles",
+                        "path": "default-roles"
+                      },
+                      {
+                        "title": "Creating a Custom Role",
+                        "path": "creating-a-custom-role"
+                      },
+                      {
+                        "title": "Role Capabilities",
+                        "path": "role-capabilities"
+                      },
+                      {
+                        "title": "Admin Flags",
+                        "path": "admin-flags"
+                      },
+                      {
+                        "title": "Visibility Flags",
+                        "path": "visibility-flags"
+                      },
+                      {
+                        "title": "Platform Flags",
+                        "path": "platform-flags"
+                      },
+                      {
+                        "title": "Module Flags",
+                        "path": "module-flags"
+                      },
+                      {
+                        "title": "Copying a Role",
+                        "path": "copying-a-role"
+                      },
+                      {
+                        "title": "Deleting a Role",
+                        "path": "deleting-a-role"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Teams",
+                    "pages": [
+                      {
+                        "title": "Assigning Members to Teams",
+                        "path": "assigning-members-to-teams"
+                      },
+                      {
+                        "title": "Creating a Team",
+                        "path": "creating-a-team"
+                      },
+                      {
+                        "title": "Teams Overview",
+                        "path": "teams-overview"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Locations",
+                    "pages": [
+                      {
+                        "title": "Locations Overview",
+                        "path": "locations-overview"
+                      },
+                      {
+                        "title": "Adding a Location",
+                        "path": "adding-a-location"
+                      },
+                      {
+                        "title": "Location Details",
+                        "path": "location-details"
+                      },
+                      {
+                        "title": "Bulk Routing",
+                        "path": "bulk-routing"
+                      },
+                      {
+                        "title": "Failover & Routing History",
+                        "path": "failover-routing-history"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Location Groups",
+                    "pages": [
+                      {
+                        "title": "Location Groups Overview",
+                        "path": "location-groups-overview"
+                      },
+                      {
+                        "title": "Creating a Group",
+                        "path": "creating-a-group"
+                      },
+                      {
+                        "title": "Adding Locations to a Group",
+                        "path": "adding-locations-to-a-group"
+                      },
+                      {
+                        "title": "Routing Defaults for Groups",
+                        "path": "routing-defaults-for-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Location Access",
+                    "pages": [
+                      {
+                        "title": "Core Location Assignments — Concept",
+                        "path": "core-location-assignments-concept"
+                      },
+                      {
+                        "title": "Granting Access to Users",
+                        "path": "granting-access-to-users"
+                      },
+                      {
+                        "title": "Granting Access to Teams",
+                        "path": "granting-access-to-teams"
+                      },
+                      {
+                        "title": "Bulk Assignments",
+                        "path": "bulk-assignments"
+                      },
+                      {
+                        "title": "Rights Bitmask",
+                        "path": "rights-bitmask"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Module Permissions",
+                    "pages": [
+                      {
+                        "title": "ModuleGrants — Concept",
+                        "path": "modulegrants-concept"
+                      },
+                      {
+                        "title": "Granting Module Access",
+                        "path": "granting-module-access"
+                      },
+                      {
+                        "title": "Choosing a Scope",
+                        "path": "choosing-a-scope"
+                      },
+                      {
+                        "title": "Time-Limited Grants",
+                        "path": "time-limited-grants"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Platform Connections",
+                    "pages": [
+                      {
+                        "title": "Platform Concept",
+                        "path": "platform-concept"
+                      },
+                      {
+                        "title": "Connecting Google Business",
+                        "path": "connecting-google-business"
+                      },
+                      {
+                        "title": "Sharing Profiles",
+                        "path": "sharing-profiles"
+                      },
+                      {
+                        "title": "Linking Profiles to Locations",
+                        "path": "linking-profiles-to-locations"
+                      },
+                      {
+                        "title": "Connection Status & Reconnect",
+                        "path": "connection-status-reconnect"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Subscription & Billing",
+                    "pages": [
+                      {
+                        "title": "Current Plan",
+                        "path": "current-plan"
+                      },
+                      {
+                        "title": "Modules in Subscription",
+                        "path": "modules-in-subscription"
+                      },
+                      {
+                        "title": "Adjusting Locations & Members",
+                        "path": "adjusting-locations-members"
+                      },
+                      {
+                        "title": "Upgrading",
+                        "path": "upgrading"
+                      },
+                      {
+                        "title": "Scheduling a Downgrade",
+                        "path": "scheduling-a-downgrade"
+                      },
+                      {
+                        "title": "Cancelling a Module",
+                        "path": "cancelling-a-module"
+                      },
+                      {
+                        "title": "Cancelling the Subscription",
+                        "path": "cancelling-the-subscription"
+                      },
+                      {
+                        "title": "Reactivation",
+                        "path": "reactivation"
+                      },
+                      {
+                        "title": "Invoices",
+                        "path": "invoices"
+                      },
+                      {
+                        "title": "Bonuses & Special Agreements",
+                        "path": "bonuses-special-agreements"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Modules",
+                    "pages": [
+                      {
+                        "title": "Modules Overview",
+                        "path": "modules-overview"
+                      },
+                      {
+                        "title": "Reading & Filtering Reviews",
+                        "path": "reading-filtering-reviews"
+                      },
+                      {
+                        "title": "Replying",
+                        "path": "replying"
+                      },
+                      {
+                        "title": "Auto-Responder Setup",
+                        "path": "auto-responder-setup"
+                      },
+                      {
+                        "title": "Trigger Events",
+                        "path": "trigger-events"
+                      },
+                      {
+                        "title": "Spintax Templates",
+                        "path": "spintax-templates"
+                      },
+                      {
+                        "title": "AI Replies",
+                        "path": "ai-replies"
+                      },
+                      {
+                        "title": "Priority & Conflicts",
+                        "path": "priority-conflicts"
+                      },
+                      {
+                        "title": "Reputation Dashboard",
+                        "path": "reputation-dashboard"
+                      },
+                      {
+                        "title": "Requesting Review Removal",
+                        "path": "requesting-review-removal"
+                      },
+                      {
+                        "title": "Module Permissions",
+                        "path": "module-permissions"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Posting Studio",
+                    "pages": [
+                      {
+                        "title": "Posting Studio Overview",
+                        "path": "posting-studio-overview"
+                      },
+                      {
+                        "title": "Creating a Campaign",
+                        "path": "creating-a-campaign"
+                      },
+                      {
+                        "title": "Composer & Preview",
+                        "path": "composer-preview"
+                      },
+                      {
+                        "title": "Templates & Media",
+                        "path": "templates-media"
+                      },
+                      {
+                        "title": "Selecting Locations",
+                        "path": "selecting-locations"
+                      },
+                      {
+                        "title": "Scheduling & Recurrence",
+                        "path": "scheduling-recurrence"
+                      },
+                      {
+                        "title": "Cross-Platform Publishing",
+                        "path": "cross-platform-publishing"
+                      },
+                      {
+                        "title": "Status & Targets",
+                        "path": "status-targets"
+                      },
+                      {
+                        "title": "Posting Studio Module Permissions",
+                        "path": "posting-studio-module-permissions"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Company Cloud",
+                    "pages": [
+                      {
+                        "title": "Company Cloud Overview",
+                        "path": "company-cloud-overview"
+                      },
+                      {
+                        "title": "Folders & Assets",
+                        "path": "folders-assets"
+                      },
+                      {
+                        "title": "Uploading & Managing",
+                        "path": "uploading-managing"
+                      },
+                      {
+                        "title": "Sharing",
+                        "path": "sharing"
+                      },
+                      {
+                        "title": "Pins",
+                        "path": "pins"
+                      },
+                      {
+                        "title": "Tags & Search",
+                        "path": "tags-search"
+                      },
+                      {
+                        "title": "Company Cloud Module Permissions",
+                        "path": "company-cloud-module-permissions"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Workflows / AI Agent",
+                    "pages": [
+                      {
+                        "title": "Workflows Overview",
+                        "path": "workflows-overview"
+                      },
+                      {
+                        "title": "Creating a Workflow",
+                        "path": "creating-a-workflow"
+                      },
+                      {
+                        "title": "Triggers",
+                        "path": "triggers"
+                      },
+                      {
+                        "title": "Actions",
+                        "path": "actions"
+                      },
+                      {
+                        "title": "Variables & Data Flow",
+                        "path": "variables-data-flow"
+                      },
+                      {
+                        "title": "Testing & Debugging",
+                        "path": "testing-debugging"
+                      },
+                      {
+                        "title": "Workflows Module Permissions",
+                        "path": "workflows-module-permissions"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "POS",
+                    "pages": [
+                      {
+                        "title": "POS / Coming Soon",
+                        "path": "coming-soon"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Stock & Inventory",
+                    "pages": [
+                      {
+                        "title": "Stock & Inventory / Coming Soon",
+                        "path": "stock-inventory-/-coming-soon"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "eRecht24",
+                    "pages": [
+                      {
+                        "title": "eRecht 24 / Coming Soon",
+                        "path": "erecht-24-/-coming-soon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Modules",
+                "pages": []
+              },
+              {
+                "group": "Appendix",
+                "pages": []
+              },
+              {
                 "title": "Introduction",
                 "path": "introduction",
                 "icon": "home"
@@ -32,46 +572,6 @@
                 "title": "Components",
                 "path": "components",
                 "icon": "code"
-              }
-            ]
-          },
-          {
-            "group": "Components",
-            "icon": "layers",
-            "pages": [
-              {
-                "group": "Modules",
-                "pages": []
-              },
-              {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
-              },
-              {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
-              },
-              {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
-              },
-              {
-                "title": "Callouts",
-                "path": "components/callouts",
-                "icon": "message-square"
-              },
-              {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
-              },
-              {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
               }
             ]
           }
