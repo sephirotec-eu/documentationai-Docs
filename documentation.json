@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Full Documentation",
         "icon": "book",
         "groups": [
           {
@@ -91,7 +91,7 @@
                     "group": "Company",
                     "pages": [
                       {
-                        "title": "Overview",
+                        "title": "Company Overview",
                         "path": "overview"
                       },
                       {
@@ -133,8 +133,8 @@
                     "group": "Members",
                     "pages": [
                       {
-                        "title": "Company Overview",
-                        "path": "company-overview"
+                        "title": "Members Overview",
+                        "path": "members-overview"
                       },
                       {
                         "title": "Inviting Members",
@@ -591,6 +591,181 @@
                 "icon": "code"
               }
             ]
+          }
+        ]
+      },
+      {
+        "tab": "App Structure",
+        "pages": [
+          {
+            "group": "Dashboard",
+            "pages": [
+              {
+                "title": "Dashboard",
+                "path": "dashboard"
+              },
+              {
+                "group": "Members",
+                "pages": [
+                  {
+                    "title": "Members",
+                    "path": "members"
+                  }
+                ]
+              },
+              {
+                "group": "Teams",
+                "pages": [
+                  {
+                    "title": "Teams",
+                    "path": "mambers"
+                  }
+                ]
+              },
+              {
+                "group": "Roles",
+                "pages": [
+                  {
+                    "title": "Roles",
+                    "path": "roles"
+                  }
+                ]
+              },
+              {
+                "group": "Locations",
+                "pages": [
+                  {
+                    "title": "Locations",
+                    "path": "locations"
+                  }
+                ]
+              },
+              {
+                "group": "Groups",
+                "pages": [
+                  {
+                    "title": "Groups",
+                    "path": "groups"
+                  }
+                ]
+              },
+              {
+                "group": "Platforms",
+                "pages": [
+                  {
+                    "title": "Platforms",
+                    "path": "platforms"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              {
+                "group": "Reputation",
+                "pages": [
+                  {
+                    "group": "Review Management",
+                    "pages": []
+                  }
+                ]
+              },
+              {
+                "group": "Content & Marketing",
+                "pages": [
+                  {
+                    "group": "Posting Studio",
+                    "pages": []
+                  },
+                  {
+                    "group": "Cloud",
+                    "pages": []
+                  }
+                ]
+              },
+              {
+                "group": "Automation",
+                "pages": []
+              },
+              {
+                "group": "Module Permissions",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "group": "Company",
+            "pages": [
+              {
+                "group": "Staff Organisation",
+                "pages": [
+                  {
+                    "group": "Members",
+                    "pages": []
+                  },
+                  {
+                    "group": "Teams",
+                    "pages": []
+                  },
+                  {
+                    "group": "Roles & Permissions",
+                    "pages": []
+                  }
+                ]
+              },
+              {
+                "group": "Location Management",
+                "pages": [
+                  {
+                    "group": "Locations",
+                    "pages": []
+                  },
+                  {
+                    "group": "Location Groups",
+                    "pages": []
+                  }
+                ]
+              },
+              {
+                "group": "Settings",
+                "pages": [
+                  {
+                    "group": "Company Settings",
+                    "pages": []
+                  },
+                  {
+                    "group": "Legal Addresses",
+                    "pages": []
+                  },
+                  {
+                    "group": "Platform Management",
+                    "pages": []
+                  },
+                  {
+                    "group": "Switch Location Connections",
+                    "pages": []
+                  },
+                  {
+                    "group": "Subscription",
+                    "pages": []
+                  },
+                  {
+                    "group": "Invoices",
+                    "pages": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "My Account",
+            "path": "my-account"
+          },
+          {
+            "title": "My Platforms",
+            "path": "my-platforms"
           }
         ]
       },
