@@ -603,60 +603,6 @@
               {
                 "title": "Dashboard",
                 "path": "dashboard"
-              },
-              {
-                "group": "Members",
-                "pages": [
-                  {
-                    "title": "Members",
-                    "path": "members"
-                  }
-                ]
-              },
-              {
-                "group": "Teams",
-                "pages": [
-                  {
-                    "title": "Teams",
-                    "path": "mambers"
-                  }
-                ]
-              },
-              {
-                "group": "Roles",
-                "pages": [
-                  {
-                    "title": "Roles",
-                    "path": "roles"
-                  }
-                ]
-              },
-              {
-                "group": "Locations",
-                "pages": [
-                  {
-                    "title": "Locations",
-                    "path": "locations"
-                  }
-                ]
-              },
-              {
-                "group": "Groups",
-                "pages": [
-                  {
-                    "title": "Groups",
-                    "path": "groups"
-                  }
-                ]
-              },
-              {
-                "group": "Platforms",
-                "pages": [
-                  {
-                    "title": "Platforms",
-                    "path": "platforms"
-                  }
-                ]
               }
             ]
           },
@@ -703,15 +649,30 @@
                 "pages": [
                   {
                     "group": "Members",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Member Management",
+                        "path": "member-management"
+                      }
+                    ]
                   },
                   {
                     "group": "Teams",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Team Management",
+                        "path": "team-management"
+                      }
+                    ]
                   },
                   {
                     "group": "Roles & Permissions",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Roles and Permissions",
+                        "path": "roles-and-permissions"
+                      }
+                    ]
                   }
                 ]
               },
@@ -720,11 +681,21 @@
                 "pages": [
                   {
                     "group": "Locations",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Location Management",
+                        "path": "location-management"
+                      }
+                    ]
                   },
                   {
                     "group": "Location Groups",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Location Groups Management",
+                        "path": "location-groups-management"
+                      }
+                    ]
                   }
                 ]
               },
@@ -733,27 +704,48 @@
                 "pages": [
                   {
                     "group": "Company Settings",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Company Settings",
+                        "path": "company-settings"
+                      }
+                    ]
                   },
                   {
                     "group": "Legal Addresses",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Legal Addresses",
+                        "path": "legal-addres"
+                      }
+                    ]
                   },
                   {
                     "group": "Platform Management",
-                    "pages": []
-                  },
-                  {
-                    "group": "Switch Location Connections",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "My Connected Platforms",
+                        "path": "my-connected-platforms"
+                      }
+                    ]
                   },
                   {
                     "group": "Subscription",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "My Subscription",
+                        "path": "my-subscription"
+                      }
+                    ]
                   },
                   {
                     "group": "Invoices",
-                    "pages": []
+                    "pages": [
+                      {
+                        "title": "Invoice",
+                        "path": "invoice"
+                      }
+                    ]
                   }
                 ]
               }
