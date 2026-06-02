@@ -752,12 +752,31 @@
             ]
           },
           {
-            "title": "My Account",
-            "path": "my-account"
+            "group": "My Memberships",
+            "pages": [
+              {
+                "title": "My Memberships",
+                "path": "my-memberships"
+              }
+            ]
           },
           {
-            "title": "My Platforms",
-            "path": "my-platforms"
+            "group": "Connected Accounts",
+            "pages": [
+              {
+                "title": "Connected Accounts",
+                "path": "connected-accounts"
+              }
+            ]
+          },
+          {
+            "group": "Personal Settings",
+            "pages": [
+              {
+                "title": "Personal Settings",
+                "path": "personal-settings"
+              }
+            ]
           }
         ]
       },
