@@ -598,6 +598,27 @@
         "tab": "App Structure",
         "pages": [
           {
+            "group": "Top Menu",
+            "pages": [
+              {
+                "title": "My Membership Management",
+                "path": "my-membership-management"
+              },
+              {
+                "title": "Start Your Company",
+                "path": "start-your-company"
+              },
+              {
+                "title": "Create Law Firm",
+                "path": "create-law-firm"
+              },
+              {
+                "title": "Join an Existing Company",
+                "path": "join-an-existing-company"
+              }
+            ]
+          },
+          {
             "group": "Dashboard",
             "pages": [
               {
