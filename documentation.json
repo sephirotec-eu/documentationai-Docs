@@ -876,6 +876,10 @@
             "icon": "history"
           }
         ]
+      },
+      {
+        "tab": "Testing",
+        "pages": []
       }
     ]
   }
