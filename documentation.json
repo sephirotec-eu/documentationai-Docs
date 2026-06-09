@@ -611,10 +611,6 @@
               {
                 "title": "Create Law Firm",
                 "path": "create-law-firm"
-              },
-              {
-                "title": "Join an Existing Company",
-                "path": "join-an-existing-company"
               }
             ]
           },
