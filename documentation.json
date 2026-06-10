@@ -769,29 +769,34 @@
             ]
           },
           {
-            "group": "My Memberships",
+            "group": "Bottom Menu",
             "pages": [
               {
-                "title": "My Memberships",
-                "path": "my-memberships"
-              }
-            ]
-          },
-          {
-            "group": "Connected Accounts",
-            "pages": [
+                "group": "My Memberships",
+                "pages": [
+                  {
+                    "title": "My Memberships",
+                    "path": "my-memberships"
+                  }
+                ]
+              },
               {
-                "title": "Connected Accounts",
-                "path": "connected-accounts"
-              }
-            ]
-          },
-          {
-            "group": "Personal Settings",
-            "pages": [
+                "group": "Connected Accounts",
+                "pages": [
+                  {
+                    "title": "Connected Accounts",
+                    "path": "connected-accounts"
+                  }
+                ]
+              },
               {
-                "title": "Personal Settings",
-                "path": "personal-settings"
+                "group": "Personal Settings",
+                "pages": [
+                  {
+                    "title": "Personal Settings",
+                    "path": "personal-settings"
+                  }
+                ]
               }
             ]
           }
