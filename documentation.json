@@ -599,20 +599,7 @@
         "pages": [
           {
             "group": "Top Menu",
-            "pages": [
-              {
-                "title": "My Membership Management",
-                "path": "my-membership-management"
-              },
-              {
-                "title": "Start Your Company",
-                "path": "start-your-company"
-              },
-              {
-                "title": "Create Law Firm",
-                "path": "create-law-firm"
-              }
-            ]
+            "pages": []
           },
           {
             "group": "Dashboard",
@@ -775,8 +762,16 @@
                 "group": "My Memberships",
                 "pages": [
                   {
-                    "title": "My Memberships",
-                    "path": "my-memberships"
+                    "title": "My Membership Management",
+                    "path": "my-membership-management"
+                  },
+                  {
+                    "title": "Start Your Company",
+                    "path": "start-your-company"
+                  },
+                  {
+                    "title": "Create Law Firm",
+                    "path": "create-law-firm"
                   }
                 ]
               },
